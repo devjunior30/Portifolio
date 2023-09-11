@@ -47,10 +47,11 @@ nav {
 }
 
 @keyframes typing {
-    from{
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 11ch;
     }
 }
@@ -67,14 +68,15 @@ nav {
 }
 
 .typingAnimation2 {
-  animation: typing2 7s 2s infinite;
+    animation: typing2 7s 2s infinite;
 }
 
 @keyframes typing2 {
-    from{
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 17ch;
     }
 }
@@ -138,15 +140,16 @@ a:hover {
 
 section {
     display: flex;
-    /* justify-content: space-around;
-    align-items: center; */
+    /* justify-content: space-around; */
+    align-items: flex-start;
 }
 
 #minhaImg {
     width: 265px;
     border-radius: 20px;
-    border: 9px dashed red;
     margin-left: 175px;
+    box-shadow:
+    -11px 2px 44px 11px olive;
 }
 
 .myBiography {
@@ -180,4 +183,13 @@ li {
 
 li::before {
     content: "• ";
+}
+
+.projects {
+    text-align: center;
+    font-size: 60px;
+    margin: 22px 0 19px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: 7px underline wavy olive;
+    color: #008B8B;
 }
